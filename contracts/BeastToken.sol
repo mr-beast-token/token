@@ -11,7 +11,7 @@ contract BeastToken is Ownable, ERC20 {
     address public uniswapV2Pair;
     mapping(address => bool) public blacklists;
 
-    constructor(uint256 _totalSupply) ERC20("Pepe", "PEPE") {
+    constructor(uint256 _totalSupply) ERC20("Mr Beast", "BEAST") {
         _mint(msg.sender, _totalSupply);
     }
 
