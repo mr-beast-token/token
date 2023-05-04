@@ -1,1 +1,1 @@
-# token
+# $BEAST Token Smart Contract
